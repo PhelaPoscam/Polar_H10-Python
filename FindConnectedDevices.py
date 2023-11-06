@@ -60,3 +60,6 @@ def get_mac_address(device_name, devices):
         if device_name.lower() in name.lower():
             return mac_address
     return None
+
+address =find_devices()
+print(address)

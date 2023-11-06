@@ -1,5 +1,4 @@
 import asyncio
-import csv
 #from pylsl import StreamInfo, StreamOutlet
 
 from numpy import mean
