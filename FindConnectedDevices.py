@@ -125,3 +125,4 @@ def get_mac_address(device_name: str, devices: dict) -> str:
             return mac_address
     return None
 
+   
