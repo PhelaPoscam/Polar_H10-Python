@@ -54,6 +54,9 @@ def parse_devices(output):
     return devices
 
 
+import logging
+import bluetooth
+
 def get_all_devices_windows():
     """
     Returns a dictionary of connected Bluetooth devices on Windows.
@@ -81,6 +84,12 @@ def get_all_devices_windows():
     return devices
 
 def find_devices():
+    """
+    Finds all connected devices on the system.
+
+    Returns:
+    dict: A dictionary containing information about all connected devices.
+    """
     devices = {}
     if platform.system() == 'Linux':
         devices = get_all_devices_linux()

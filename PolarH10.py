@@ -1,7 +1,6 @@
 import asyncio
 #from pylsl import StreamInfo, StreamOutlet
 
-from numpy import mean
 import FindConnectedDevices
 import asyncio
 import time
